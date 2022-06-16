@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 400;
 }
 .container{
-  border-top:1px solid #CFA4BF;
+  border-top:1px solid #cfa4bf62;
 }
 
 /* copyright text setting */
@@ -178,7 +178,6 @@ ul.footerLinks li a:hover{
 .iconLinks img{
   width: 14px;
 }
-
 .iconLinks li{
   display: inline-block;
   padding:0px 11px;
