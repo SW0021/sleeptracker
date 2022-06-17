@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+  }
+  
+  #background02{
+    background-image:linear-gradient(180deg, #212237 -13.34%, #8C7D94 124.54%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: -999;
+  }
+  .bgPic img{
+    width: 550px;
+    height:800px;
+    display: block;
+    position: absolute;
+    padding-left: 750px;
+    padding-top: 80px;
+    z-index: -1;
+  }
+  /* nav bar container setting */
+#nav{
+    position:fixed;
+    width:100vw;
+    top:0;
+    left:0;
+    padding:20px 0;
+    background-color:#353348;
+  }
+  
+  /* nav bar logo setting */
+  .brand-logo{
+    text-decoration: none;
+    position:absolute;
+    top:26px;
+    left:80px;
+  }
+  .brand-logo img{
+    width:112px;
+    top:0px;
+  }
+  
+  /* nav bar link setting */
+  #nav ul {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    margin: 0px -150px;
+  }
+  #nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    font-family:'Noto Sans TC', sans-serif;
+    font-weight: 800;
+  }
+  #nav ul li a{
+    text-decoration: none;
+    color:#CFA4BF;
+    transition: 0.3s;
+    opacity: 0.5;
+  }
+  #nav ul li a:hover{
+    color:#CFA4BF;
+    opacity: 1;
+  }
+  
+  /* nav bar text settings */
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family:'Noto Sans TC', sans-serif;
+  }
+  #nav h1{
+    text-align: center;
+    font-size: 30pt;
+  }
+  #nav h2{
+    text-align: center;
+    font-size: 11pt;
+    font-weight: 400;
+  }
+  #nav h3{
+    text-align: center;
+    font-size: 9pt;
+    font-weight:200;
+  }
+  /* content container setting */
+#page02-content{
+  display:inline-block;
+  max-width: 329pt;
+  padding-left: 82pt;
+  margin-top: calc(100vh - 310px);
+  margin-bottom: 50pt;
+}
+
+/* content text setting */
+#page02-content  h1{
+  font-size: 22pt;
+  color: white;
+}
+#page02-content h2{
+  font-size: 16pt;
+  font-weight:200;
+  color: white;
+  margin-bottom: 18pt;
+}
+#page02-content p{
+  font-size: x-small;
+  color:#CFA4BF;
+  margin-bottom: 35pt;
+}
+.more{
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+  background: #CFA4BF;
+  padding:8pt 30pt;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.more:hover{
+  background: #f4cae4;
+  color: #212237;
+}
