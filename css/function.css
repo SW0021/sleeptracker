@@ -124,3 +124,26 @@ body{
   background: #f4cae4;
   color: #212237;
 }
+/* introduce container setting*/
+#introduce{
+  display:inline-block;
+  max-width: 325pt;
+  padding-left:90pt;
+  padding-top:10pt;
+  margin-top: calc(115vh - 310px);
+  margin-bottom: 50pt;
+}
+/* introduce text setting */
+#introduce h1{
+    font-size: 16pt;
+    color: #CFA4BF;
+}
+#introduce h2{
+    font-size: 16pt;
+    color: #ffffff;
+}
+#introduce p{
+    font-size: x-small;
+  color:#ffffff;
+  margin-bottom: 35pt;
+}
