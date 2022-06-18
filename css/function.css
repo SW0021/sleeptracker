@@ -110,6 +110,7 @@ body{
   font-size: x-small;
   color:#CFA4BF;
   margin-bottom: 35pt;
+  line-height: 20pt;
 }
 .more{
   text-decoration: none;
@@ -126,140 +127,263 @@ body{
 }
 /* function content*/
 #function{
-    margin: 0;
+  margin: 0;
 }
 /* introduce container setting*/
 #introduce{
-    display:block;
-    max-width: 280pt;
-    padding-left: 150pt;
-    margin-top: calc(100vh - 310px);
-    margin-bottom: 50pt;
+  display:block;
+  max-width: 280pt;
+  padding-left: 150pt;
+  margin-top: calc(100vh - 310px);
+  margin-bottom: 50pt;
 }
 
 /* introduce text setting */
 #introduce h1{
-    font-size: 16pt;
-    color: #CFA4BF;
+  font-size: 16pt;
+  color: #CFA4BF;
 }
 #introduce h2{
-    font-size: 16pt;
-    color: #ffffff;
+  font-size: 16pt;
+  color: #ffffff;
 }
 #introduce p{
-    font-size: x-small;
+  font-size: x-small;
   color:#ffffff;
   margin-bottom: 35pt;
+  margin-top:30pt ;
+  line-height: 30px;
 }
 /* introduce-img*/
 #mockup{
-    display:block;
-    max-width: 900pt;
-    padding-left:500pt;
-    margin-top: calc(0vh - 310px);
-    margin-bottom: 20pt;
+  display:block;
+  max-width: 900pt;
+  padding-left:500pt;
+  margin-top: calc(0vh - 310px);
+  margin-bottom: 20pt;
 }
 #mockup img{
-    width: 200px;
-    height: auto;
-    padding-left:0;
+  width: 200px;
+  height: auto;
+  padding-left:0;
 }
 /* introduce02 container setting*/
 #introduce02{
-    display:block;
-    max-width: 280pt;
-    padding-left: 150pt;
-    margin-top: calc(80vh - 310px);
-    margin-bottom: 50pt;
+  display:block;
+  max-width: 280pt;
+  padding-left: 150pt;
+  margin-top: calc(80vh - 310px);
+  margin-bottom: 50pt;
 }
 
 /* introduce02 text setting */
 #introduce02 h1{
-    font-size: 16pt;
-    color: #CFA4BF;
+  font-size: 16pt;
+  color: #CFA4BF;
 }
 #introduce02 h2{
-    font-size: 16pt;
-    color: #ffffff;
+  font-size: 16pt;
+  color: #ffffff;
 }
 #introduce02 p{
-    font-size: x-small;
+  font-size: x-small;
   color:#ffffff;
   margin-bottom: 35pt;
+  margin-top:30pt ;
+  line-height: 30px;
 }
 /* introduce-img*/
 #mockup02{
-    display:block;
-    max-width: 900pt;
-    padding-left:500pt;
-    margin-top: calc(0vh - 310px);
-    margin-bottom: 20pt;
+  display:block;
+  max-width: 900pt;
+  padding-left:500pt;
+  margin-top: calc(0vh - 310px);
+  margin-bottom: 20pt;
 }
 #mockup02 img{
-    width: 200px;
-    height: auto;
-    padding-left:0;
+  width: 200px;
+  height: auto;
+  padding-left:0;
 }
 /* introduce03 container setting*/
 #introduce03{
-    display:block;
-    max-width: 280pt;
-    padding-left: 150pt;
-    margin-top: calc(80vh - 310px);
-    margin-bottom: 50pt;
+  display:block;
+  max-width: 280pt;
+  padding-left: 150pt;
+  margin-top: calc(80vh - 310px);
+  margin-bottom: 50pt;
 }
 
 /* introduce02 text setting */
 #introduce03 h1{
-    font-size: 16pt;
-    color: #CFA4BF;
+  font-size: 16pt;
+  color: #CFA4BF;
 }
 #introduce03 h2{
-    font-size: 16pt;
-    color: #ffffff;
+  font-size: 16pt;
+  color: #ffffff;
 }
 #introduce03 p{
-    font-size: x-small;
+  font-size: x-small;
   color:#ffffff;
   margin-bottom: 35pt;
+  margin-top:30pt ;
+  line-height: 30px;
 }
 /* introduce03-img */
 #mockup03{
-    display:block;
-    max-width: 900pt;
-    padding-left:500pt;
-    margin-top: calc(0vh - 310px);
-    margin-bottom: 20pt;
+  display:block;
+  max-width: 900pt;
+  padding-left:500pt;
+  margin-top: calc(0vh - 310px);
+  margin-bottom: 20pt;
 }
 #mockup03 img{
-    width: 200px;
-    height: auto;
-    padding-left:0;
+  width: 200px;
+  height: auto;
+  padding-left:0;
 }
 /*selection setting */
 #selection{
-    margin: 0;
-    text-align: center;
+  margin: 0;
 }
 /* function-selection */
 #function-selection{
-    margin-top: calc(80vh - 310px);
-    text-align: center;
+  margin-top: calc(80vh - 310px);
 }
 /*function-selection text setting */
 #function-selection h1{
-    font-size: 22pt;
-    color: #ffffff;
-    text-align: center;
+  font-size: 22pt;
+  color: #ffffff;
+  text-align: center;
 }
 #function-selection h2{
-    font-size: 16pt;
-    color: #CFA4BF;
-    text-align: center;
+  font-size: 16pt;
+  color: #CFA4BF;
+  text-align: center;
 }
 /*function-selection img setting */
-#function-selection img{
-    width:80px;
-    height: auto;
-    padding-left:150px;
+#selection-img{
+  margin: 0;
+  padding: 50px;
+  text-align: center;
 }
+#selection-img img{
+  width: 60px;
+  height: auto;
+}
+#img01{
+  width: 200px;
+  height: auto;
+  margin: 80px;
+  display: inline-block;
+}
+#img02{
+  width:200px;
+  height: auto;
+  margin: 80px;
+  display: inline-block;
+}
+#img03{
+  width:200px;
+  height: auto;
+  margin: 80px;
+  display: inline-block;
+}
+#img01 h3{
+  font-size: 22px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+#img02 h3{
+  font-size: 22px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+#img03 h3{
+  font-size: 22px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+#img01 p{
+  font-size: 16px;
+  margin: 5px;
+  color: #CFA4BF;
+}
+#img02 p{
+  font-size: 16px;
+  margin: 5px;
+  color: #CFA4BF;
+}
+#img03 p{
+  font-size: 16px;
+  margin: 5px;
+  color: #CFA4BF;
+}
+/* footer container setting */
+#footer{
+  position: absolute;
+  width: calc(100vw - 220px);
+  top:calc(100vh + 2800px);
+  margin: 0px 85px;
+  padding-bottom: 40pt;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 400;
+}
+.container{
+  border-top:1px solid #cfa4bf62;
+}
+
+/* copyright text setting */
+.copyright{
+  display: inline-block;
+  font-size: x-small;
+  color: #CFA4BF;
+}
+
+/* footerLink link setting */
+ul.footerLinks{
+  display: inline-block;
+  margin: 0px 220px 0px 310px;
+  padding: 0;
+}
+ul.footerLinks li{
+  display: inline-block;
+  font-size: x-small;
+  padding:0px 11px;
+}
+ul.footerLinks li a{
+  text-decoration: none;
+  color:#CFA4BF;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+ul.footerLinks li a:hover{
+  color:#CFA4BF;
+  opacity: 1;
+}
+
+/* iconLink link setting */
+.iconLinks{
+  display: inline-block;
+  text-decoration: none;
+}
+.iconLinks img{
+  width: 14px;
+}
+.iconLinks li{
+  display: inline-block;
+  padding:0px 11px;
+}
+.iconLinks li a{
+  text-decoration: none;
+  color:#CFA4BF;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.iconLinks li a:hover{
+  color:#CFA4BF;
+  opacity: 1;
+}
+
+

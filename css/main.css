@@ -112,6 +112,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-size: x-small;
   color:#CFA4BF;
   margin-bottom: 35pt;
+  line-height: 20pt;
 }
 .more{
   text-decoration: none;
