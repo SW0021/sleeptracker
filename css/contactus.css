@@ -127,6 +127,13 @@ body{
 }
 #contacticon img{
     width: 50px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+#contacticon img:hover{
+    width: 50px;
+    opacity: 1;
+    transition: 0.3s;
 }
 .more{
   text-decoration: none;
@@ -174,6 +181,13 @@ body{
 }
 #contacticon2 img{
     width: 50px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+#contacticon2 img:hover{
+  width: 50px;
+  opacity: 1;
+  transition: 0.3s;
 }
 
 
