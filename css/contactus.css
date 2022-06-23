@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
   }
@@ -97,7 +101,7 @@ body{
   }
   
   /* content container setting */
-#page02-content{
+#page03-content{
   display:inline-block;
   max-width: 329pt;
   padding-left: 82pt;
@@ -106,17 +110,17 @@ body{
 }
 
 /* content text setting */
-#page02-content  h1{
+#page03-content  h1{
   font-size: 22pt;
   color: white;
 }
-#page02-content h2{
+#page03-content h2{
   font-size: 16pt;
   font-weight:200;
   color: white;
   margin-bottom: 18pt;
 }
-#page02-content p{
+#page03-content p{
   font-size: x-small;
   color:#CFA4BF;
   margin-bottom: 35pt;
@@ -149,6 +153,11 @@ body{
   color: #212237;
 }
 
+/* anchor setting */
+#here{
+  display:block;
+  margin-top: 175px;
+}
 
 /* commonproblem setting*/
 #commonproblem{
